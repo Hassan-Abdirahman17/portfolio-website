@@ -1,50 +1,7 @@
 body{
-font-family: Arial;
-background-color:#f4f4f4;
-margin:0;
-padding:0;
-}
-
-header{
-background:#333;
-color:white;
-padding:20px;
-text-align:center;
-border-bottom:4px solid #555;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:10px;
-font-size:18px;
-}
-
-nav a:hover{
-color:yellow;
+background-color:#f8f9fa;
 }
 
 h2{
-color:#333;
-margin-left:20px;
-}
-
-p{
 text-align:center;
-margin-top:30px;
-font-size:18px;
-}
-
-ul {
-    list-style: Inside;
-    text-align: center;
-    padding: 0;
-}
-
-ul {
-    list-style-position: inside;
-    padding: 0;
-    margin: 30px auto; 
-    width: fit-content;
-    text-align: left;
 }
