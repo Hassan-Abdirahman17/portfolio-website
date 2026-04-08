@@ -5,3 +5,22 @@ background-color:#f8f9fa;
 h2{
 text-align:center;
 }
+
+.card:hover{
+transform: scale(1.05);
+transition: 0.3s;
+}
+
+.btn:hover{
+transform: translateY(-3px);
+transition: 0.3s;
+}
+
+.fade-in{
+animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}

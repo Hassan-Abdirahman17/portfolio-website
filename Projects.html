@@ -13,48 +13,66 @@
 
     <a class="navbar-brand" href="index.html">Hassan Portfolio</a>
 
-    <div class="navbar-nav">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="navbar-nav ms-auto">
     <a class="nav-link" href="index.html">Home</a>
     <a class="nav-link" href="about.html">About</a>
     <a class="nav-link" href="projects.html">Projects</a>
     <a class="nav-link" href="skills.html">Skills</a>
     <a class="nav-link" href="contact.html">Contact</a>
     </div>
+    </div>
 
     </div>
     </nav>
 
-    <div class="container mt-5">
-
-    <div class="card mb-3 shadow">
+    <div class="container mt-4">
+    <div class="row">
+    <h2 class="text-center display-6">My Projects</h2>
+    <div class="col-md-4">
+    <div class="card shadow mb-4 fade-in">
     <div class="card-body">
 
-    <h5 class="card-title">Arduino Plant Watering System</h5>
-
-    <p class="card-text">
-    A system that automatically waters plants using sensors.
-    </p>
-
-    <button class="btn btn-success">View Project</button>
+    <h5>Arduino Plant System</h5>
+    <p>Automatic Plant Watering using Sensors.</p>
+    <button class="btn btn-success">View</button>
 
     </div>
     </div>
+    </div>
 
-    <div class="card mb-3 shadow">
+    <div class="col-md-4">
+    <div class="card shadow mb-4 fade-in">
     <div class="card-body">
 
-    <h5 class="card-title">Portfolio Website</h5>
+    <h5>Portfolio Website</h5>
+    <p>Website using HTML, CSS, and Bootstrap.</p>
+    <button class="btn btn-primary">Details</button>
 
-    <p class="card-text">
-    A personal website created using HTML, CSS, and Bootstrap.
-    </p>
+    </div>
+    </div>
+    </div>
 
-    <button class="btn btn-primary">View Details</button>
+    <div class="col-md-4">
+    <div class="card shadow mb-4 fade-in">
+    <div class="card-body">
+
+    <h5>Networking Project</h5>
+    <p>Basic Computer Networking Project.</p>
+    <button class="btn btn-warning">View</button>
+
+    </div>
+    </div>
+    </div>
 
     </div>
     </div>
 
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     
 </body>
 </html>
